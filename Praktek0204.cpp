@@ -8,5 +8,7 @@ int main(){
 	cout<<"Luas 1 box parket	: "<<LBP<<" m2"<<endl;
 	double JBP=LRumah/LBP;
 	cout<<"Jumlah box parket	: "<<JBP<<endl;
-	double BP=JBP*500;	
+	double BP=JBP*500;
+	cout<<"Biaya Parket (Rp)	: "<<BP<<endl;
+	int Bpas=LRumah*20;	
 }
