@@ -11,4 +11,6 @@ int main(){
 	double BP=JBP*500;
 	cout<<"Biaya Parket (Rp)	: "<<BP<<endl;
 	int Bpas=LRumah*20;	
+	cout<<"Biaya Pasang (Rp)	: "<<Bpas<<endl;
+	double TotB=BP+Bpas;
 }
